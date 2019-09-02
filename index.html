@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Shit Run!</title>
+	<meta charset="UTF-8" />
+
+	<style>
+		#body {
+			background-color: #ebefd0;  /*#ebefd0;*/
+		}
+		#myCanvas {
+			border: 2px solid grey;
+			background-color: rgba(0,0,0,0.2);
+		}
+		#heading {
+			font-family: verdana;
+			color: #584b42;
+			margin-left: 1em;
+		}
+	#myCanvas {
+		border: 1px solid black;
+		}
+	</style>
+</head>
+
+<body id="body" style="text-align: center;">
+	<h1 id="heading"><img id="ddong" src="assets/images/ddong.png" width="45"><strong class = "ddong">SHIT RUN!!</strong></h1>
+	<img id="man" src="assets/images/man.png" style="display: none;" alt="사람" width="10">
+	<img id="ddong" src="assets/images/ddong.png" style="display: none;" alt="똥" width="15">
+	<img id="candy" src="assets/images/candy.png" style="display: none;" alt="캔디" width="15">
+	<canvas id="myCanvas" width="350" height="520"></canvas>
+
+	<script src="src/index.js"></script>
+</body>
+<audio id="audio1" controls style="display: none">
+    <source src="assets/musics/badguys.mp3" type="audio/mpeg">
+</audio>
+<audio id="audio2" controls style="display: none">
+    <source src="assets/musics/hitsound.wav" type="audio/mpeg">
+</audio>
+<audio id="audio3" controls style="display: none">
+    <source src="assets/musics/hpup.mp3" type="audio/mpeg">
+</audio>
+
+</html>

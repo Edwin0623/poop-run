@@ -1,0 +1,17 @@
+{
+  "name": "rm7cp",
+  "version": "1.0.0",
+  "description": "Edwin Kim",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
